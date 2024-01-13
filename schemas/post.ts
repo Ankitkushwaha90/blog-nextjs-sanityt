@@ -70,7 +70,7 @@ export default defineType({
     defineField({
       name: 'excerpt',
       title: 'Excerpt',
-      type: 'code',
+      type: 'text',
     }),
     defineField({
       name: 'coverImage',
