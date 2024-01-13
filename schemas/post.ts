@@ -73,11 +73,6 @@ export default defineType({
       type: 'text',
     }),
     defineField({
-      name: 'code',
-      title: 'Code',
-      type: 'code',
-    }),
-    defineField({
       name: 'coverImage',
       title: 'Cover Image',
       type: 'image',
