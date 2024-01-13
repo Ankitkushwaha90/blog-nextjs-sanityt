@@ -70,6 +70,11 @@ export default defineType({
     defineField({
       name: 'excerpt',
       title: 'Excerpt',
+      type: 'text',
+    }),
+    defineField({
+      name: 'code',
+      title: 'Code',
       type: 'code',
     }),
     defineField({
